@@ -1,0 +1,51 @@
+#background {
+    margin: auto;
+    margin-top: 10px;
+    height:1000px;
+    width: 80%;
+    background-color: red;
+}
+.block{
+  width: 100%;
+  background-color : blue;
+}
+.first-block{
+  height:100px;
+}
+.first-block .title{
+padding-left :10px
+
+}
+.first-block .detail{
+padding-left:10px
+}
+.second-block{
+  background-color: green;
+  width: 100%;
+  margin-top:10px;
+}
+.list{
+  list-style: none;
+  margin-left: -40px;
+}
+.question-name{
+  background-color :#E7EFF1;
+  padding:10px;
+  border:1px solid  #7698A7;
+  color:#7698A7;
+
+}
+.question-name  span{
+  position: relative;
+  float:right;
+  padding: right 3px;
+
+}
+.list-name{
+  background-color:#7698A7;
+  color:white;
+  
+}
+.underline{
+  text-decoration: underline;
+}
