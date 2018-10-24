@@ -3,11 +3,11 @@
     margin-top: 10px;
     height:1000px;
     width: 80%;
+    min-width: 950px;
     background-color: red;
 }
 .block{
   width: 100%;
-  background-color : blue;
 }
 .first-block{
   height:100px;
@@ -33,7 +33,11 @@ padding-left:10px
   padding:10px;
   border:1px solid  #7698A7;
   color:#7698A7;
-
+ 
+}
+.question-name:hover{
+text-decoration: underline;
+cursor: pointer;
 }
 .question-name  span{
   position: relative;
@@ -42,10 +46,8 @@ padding-left:10px
 
 }
 .list-name{
+  padding:10px;
+  border:1px solid  #7698A7;
   background-color:#7698A7;
   color:white;
-  
-}
-.underline{
-  text-decoration: underline;
 }
