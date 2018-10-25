@@ -34,9 +34,11 @@
     })();
     (function change_background(){
        $(".style-btn1").click(function () { 
+         $("#background-pic").removeClass("img101002");
           $("#background-pic").addClass("img101001");
         })
         $(".style-btn2").click(function () { 
+            $("#background-pic").removeClass("img101001");
             $("#background-pic").addClass("img101002");
          })
          $(".style-btn3").click(function () { 
